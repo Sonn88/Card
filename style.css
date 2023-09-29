@@ -1,0 +1,36 @@
+.card-area{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width:400px;
+    min-height: 100px;
+    background-color: #AAA7A7;
+    border: 1px solid #110505;
+}
+.info{
+display: flex;
+        justify-content: space-between;
+    padding: 32px;
+    align-items: center;
+}
+.details{
+
+
+}
+.name{
+    font-weight: bold;
+    margin: 0 0 4px 0;
+    font-size: large;
+}
+.job{
+    color:#5E5A5A;
+}
+.avatar-container{
+    align-content:right;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 1000px;
+}
